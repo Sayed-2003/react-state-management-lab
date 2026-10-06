@@ -78,13 +78,10 @@ function App() {
     })
     setShoppingCart(filteredCart)
 
-    
     setAvailableItems([...availableItems, clickedItem])
 
-   
     setAvailableBalance(availableBalance + clickedItem.price)
-
-   
+  
     setWarningMessage('')
   }
 
